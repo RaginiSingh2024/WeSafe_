@@ -1,0 +1,36 @@
+{
+  "name": "vibration",
+  "version": "3.0.0",
+  "summary": "A plugin for handling Vibration API on iOS, Android, web and OpenHarmony.",
+  "description": "A plugin for handling Vibration API on iOS, Android, web and OpenHarmony.",
+  "homepage": "https://github.com/benjamindean/flutter_vibration",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Benjamin Dean": "benjaminabel.cellardoor@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "vibration/Sources/vibration/**/*.swift",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "resource_bundles": {
+    "vibration_privacy": [
+      "vibration/Sources/vibration/Resources/PrivacyInfo.xcprivacy"
+    ]
+  },
+  "swift_version": "5.0"
+}

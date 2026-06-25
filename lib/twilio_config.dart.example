@@ -1,0 +1,7 @@
+/// Twilio SMS Configuration Example
+/// Copy this file to lib/twilio_config.dart and enter your real credentials.
+class TwilioConfig {
+  static const String accountSid = 'YOUR_TWILIO_ACCOUNT_SID';
+  static const String authToken = 'YOUR_TWILIO_AUTH_TOKEN';
+  static const String twilioNumber = 'YOUR_TWILIO_PHONE_NUMBER';
+}

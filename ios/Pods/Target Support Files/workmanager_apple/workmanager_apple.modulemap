@@ -1,0 +1,6 @@
+framework module workmanager_apple {
+  umbrella header "workmanager_apple-umbrella.h"
+
+  export *
+  module * { export * }
+}

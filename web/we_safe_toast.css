@@ -1,0 +1,148 @@
+/*
+ * WeSafe Premium Toast Alert Stylesheet (Tailwind & CSS Spec)
+ * Full Glassmorphism Stacked Notification UI Redesign
+ */
+
+/* Custom Animations & Micro-interactions */
+@keyframes slideUpFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  70% {
+    transform: translateY(2px) scale(1.02); /* Soft Bounce Entrance */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulseGlowCritical {
+  0% {
+    box-shadow: 0 0 4px 0px rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 18px 4px rgba(239, 68, 68, 0.65);
+  }
+  100% {
+    box-shadow: 0 0 4px 0px rgba(239, 68, 68, 0.4);
+  }
+}
+
+.wesafe-toast-entrance {
+  animation: slideUpFadeIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Glassmorphism card backdrop specification */
+.wesafe-glass-card {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* 1. SUCCESS STATE (SOS SENT) */
+.wesafe-toast-success {
+  background: linear-gradient(135deg, rgba(139, 79, 103, 0.85), rgba(174, 75, 176, 0.85));
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 12px 1px rgba(174, 75, 176, 0.25), 0 8px 16px rgba(0, 0, 0, 0.05);
+  color: #FFFFFF;
+}
+
+/* 2. WARNING STATE */
+.wesafe-toast-warning {
+  background: linear-gradient(135deg, rgba(174, 75, 176, 0.85), rgba(212, 184, 208, 0.85));
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+  color: #2B2230; /* Dark muted text */
+}
+
+/* 3. CRITICAL / EMERGENCY STATE */
+.wesafe-toast-critical {
+  background: linear-gradient(135deg, rgba(58, 0, 77, 0.85), rgba(139, 79, 103, 0.85));
+  border: 1.5px solid rgba(239, 68, 68, 0.4);
+  color: #FFFFFF;
+  animation: pulseGlowCritical 2s infinite ease-in-out;
+}
+
+/* Icon Soft Glow Backgrounds */
+.wesafe-icon-bg-success {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: #FFFFFF;
+}
+
+.wesafe-icon-bg-warning {
+  background-color: rgba(43, 34, 48, 0.1);
+  color: #2B2230;
+}
+
+.wesafe-icon-bg-critical {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: #EF4444;
+}
+
+/* Typography styles */
+.wesafe-toast-title {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem; /* ~15px */
+}
+
+.wesafe-toast-subtitle {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem; /* ~12px */
+  opacity: 0.85;
+}
+
+.wesafe-toast-warning .wesafe-toast-subtitle {
+  opacity: 0.8;
+}
+
+/* Stacked system styles */
+.wesafe-toast-container {
+  position: fixed;
+  top: 1.5rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  z-index: 9999;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* Tailwind CSS Classes Mapping Equivalent
+ * Add these in tailwind.config.js if using custom colors:
+ * theme: {
+ *   extend: {
+ *     colors: {
+ *       wesafe: {
+ *         primaryDark: '#3A004D',
+ *         primaryPurple: '#8B4F67',
+ *         softLavender: '#AE4BB0',
+ *         mutedBlushLavender: '#D4B8D0',
+ *         lightBackground: '#F0E0EB',
+ *         textDark: '#2B2230',
+ *       }
+ *     }
+ *   }
+ * }
+ *
+ * Example element structure:
+ * <div class="wesafe-toast-container">
+ *   <!-- SUCCESS CARD -->
+ *   <div class="wesafe-glass-card wesafe-toast-success wesafe-toast-entrance flex items-center p-4">
+ *     <div class="wesafe-icon-bg-success rounded-full p-2 mr-3">
+ *       <!-- Shield Icon -->
+ *     </div>
+ *     <div class="flex-1">
+ *       <h4 class="wesafe-toast-title">Emergency Alert Activated</h4>
+ *       <p class="wesafe-toast-subtitle">Contacts notified. Location shared securely.</p>
+ *     </div>
+ *     <span class="text-[9px] font-bold bg-white/20 px-2 py-1 rounded-full ml-2">SENT</span>
+ *   </div>
+ * </div>
+ */

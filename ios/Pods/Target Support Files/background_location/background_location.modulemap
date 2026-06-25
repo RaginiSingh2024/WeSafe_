@@ -1,0 +1,6 @@
+framework module background_location {
+  umbrella header "background_location-umbrella.h"
+
+  export *
+  module * { export * }
+}
