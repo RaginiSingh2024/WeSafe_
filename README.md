@@ -16,17 +16,23 @@
 
 ## 🌐 Explore WeSafe
 
-🔗 **Live Demo:** https://wesafe-5676c.web.app
+🚀 **Live Demo:**  
+https://wesafe-5676c.web.app
 
-💻 **GitHub Repository:** https://github.com/RaginiSingh2024/WeSafe_
+💻 **GitHub Repository:**  
+https://github.com/RaginiSingh2024/WeSafe_
 
-📄 **Project Documentation:** *(Add Google Docs Link)*
+📄 **Project Documentation:**  
+https://docs.google.com/document/d/1DecloCaOx0gtzOv-2dF9HhENjafRz-8WRGxp0vQgg3Y/edit?usp=sharing
 
-📊 **Business Model:** *(Add Google Sheets Link)*
+📊 **Business Model:**  
+https://docs.google.com/spreadsheets/d/1_7Oqaeg4St6jeaC_lOVf65emrQRXZtL7xg2-RU9xOTM/edit?usp=sharing
 
-🎥 **Demo Video:** *(Coming Soon)*
+🎨 **Project Presentation (Canva/Gamma):**  
+https://gamma.app/docs/WeSafe-Indias-most-reliable-personal-safety-platform-8smunllv1q2sv4c
 
----
+🎥 **Product Demo Video:**  
+*(Coming Soon)*
 
 # 📖 About WeSafe
 
