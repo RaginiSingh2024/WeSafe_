@@ -18,25 +18,29 @@
 
 ---
 
-## 🌐 Explore WeSafe
+<p align="center">
 
-🚀 **Live Demo:**  
-https://wesafe-5676c.web.app
+<a href="YOUR_LIVE_DEMO_LINK">
+  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-8A2BE2?style=for-the-badge&logo=firebase&logoColor=white">
+</a>
 
-💻 **GitHub Repository:**  
-https://github.com/RaginiSingh2024/WeSafe_
+<a href="YOUR_GITHUB_REPO_LINK">
+  <img src="https://img.shields.io/badge/💻%20Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
-📄 **Project Documentation:**  
-https://docs.google.com/document/d/1DecloCaOx0gtzOv-2dF9HhENjafRz-8WRGxp0vQgg3Y/edit?usp=sharing
+<a href="YOUR_DOCUMENTATION_LINK">
+  <img src="https://img.shields.io/badge/📄%20Documentation-4285F4?style=for-the-badge&logo=googledocs&logoColor=white">
+</a>
 
-📊 **Business Model:**  
-https://docs.google.com/spreadsheets/d/1_7Oqaeg4St6jeaC_lOVf65emrQRXZtL7xg2-RU9xOTM/edit?usp=sharing
+<a href="YOUR_BUSINESS_MODEL_LINK">
+  <img src="https://img.shields.io/badge/📊%20Business%20Model-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
+</a>
 
-🎨 **Project Presentation (Canva/Gamma):**  
-https://gamma.app/docs/WeSafe-Indias-most-reliable-personal-safety-platform-8smunllv1q2sv4c
+<a href="YOUR_PRESENTATION_LINK">
+  <img src="https://img.shields.io/badge/🎨%20Presentation-FF6B6B?style=for-the-badge&logo=canva&logoColor=white">
+</a>
 
-🎥 **Product Demo Video:**  
-*(Coming Soon)*
+</p>
 
 # 📖 About WeSafe
 
@@ -694,9 +698,9 @@ Your support motivates us to continue improving the project and build more impac
 
 👩‍💻 **Ragini Singh**
 
-📧 Email: *(Add your email if you want)*
+📧 Email: raginisingh.sejal@gmail.com
 
-💼 LinkedIn: *(Add your LinkedIn Profile)*
+💼 LinkedIn: https://www.linkedin.com/in/ragini-singh-44236b319/
 
 💻 GitHub: https://github.com/RaginiSingh2024
 
