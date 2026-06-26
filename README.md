@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="WeSafe Banner" width="100%">
+</p>
+
 # 💜 WeSafe - Your Safety Guardian
 
 ### AI-Powered Personal Safety Platform
